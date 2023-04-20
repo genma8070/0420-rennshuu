@@ -41,4 +41,9 @@ body {
   background-color: white;
   border-color: black;
   border-style: solid;
+}
+.area button {
+  width: 200px;
+  height: 40px;
+  font-size: 28px;
 }/*# sourceMappingURL=style.css.map */
