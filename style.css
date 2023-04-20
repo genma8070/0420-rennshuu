@@ -1,21 +1,34 @@
 body {
+  height: 100vh;
   margin: 0px;
   padding: 0px;
 }
 
 .area {
   margin: 50px auto;
-  width: 400px;
-  height: 200px;
+  width: 50vw;
+  height: 20vw;
   background-color: gray;
   position: relative;
   border-radius: 20px;
+  align-items: center;
+  text-align: center;
+}
+.area h1 {
+  margin-bottom: -20px;
 }
 .area .zone {
   display: flex;
   justify-content: space-around;
   align-items: center;
   text-align: center;
+}
+.area .zone select {
+  font-size: 30px;
+  background-color: gray;
+}
+.area .zone p {
+  font-size: 30px;
 }
 .area .zone input {
   width: 50px;
@@ -26,7 +39,6 @@ body {
   width: 50px;
   height: 15px;
   background-color: white;
-}
-.area button {
-  margin-left: 40%;
+  border-color: black;
+  border-style: solid;
 }/*# sourceMappingURL=style.css.map */
