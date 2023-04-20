@@ -27,7 +27,7 @@ body {
   font-size: 30px;
   background-color: gray;
 }
-.area .zone p {
+.area .zone .pp {
   font-size: 30px;
 }
 .area .zone input {
@@ -46,4 +46,5 @@ body {
   width: 200px;
   height: 40px;
   font-size: 28px;
+  box-shadow: 4px 4px 4px 0;
 }/*# sourceMappingURL=style.css.map */
