@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.area {
+  margin: 50px auto;
+  width: 400px;
+  height: 200px;
+  background-color: gray;
+  position: relative;
+  border-radius: 20px;
+}
+.area .zone {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.area .zone input {
+  width: 50px;
+  height: 15px;
+  background-color: white;
+}
+.area .zone .kekka {
+  width: 50px;
+  height: 15px;
+  background-color: white;
+}
+.area button {
+  margin-left: 40%;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.area {
+    margin: 50px auto;
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    position: relative;
+    border-radius: 20px;
+
+    .zone {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+
+        input {
+            width: 50px;
+            height: 15px;
+            background-color: white;
+        }
+        .kekka{
+            width: 50px;
+            height: 15px;
+            background-color: white;
+        }
+        
+    }
+    button{
+        margin-left: 40%;
+   
+    }
+}
